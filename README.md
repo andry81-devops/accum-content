@@ -1,6 +1,6 @@
 <!-- -->
 <p align="center">
-  <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fandry81%2Faccum-content&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" valign="middle" alt="hits" /></a>
+  <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fandry81-devops%2Faccum-content&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" valign="middle" alt="hits" /></a>
 </p>
 <!-- -->
 
@@ -88,8 +88,6 @@ You need setup 3-5 repositories:
    The list of actions (`gh-action--*`):
    https://github.com/orgs/andry81-devops/repositories?q=gh-action--
 
-> :information_source: See <a href="#reuse">REUSE</a> section for details if you have multiple repositories and want to store all GitHub workflow scripts (`.github/workflows/*.yml`) in a single repository.
-
 > :information_source: You need to attach a personal access token (PAT) into a repository used to run a GitHub action script (`.github/workflows/*.yml`) to read content from another repository and obtain the read permission from that repository: `repo`->`public_repo`.
 
 > :information_source: You need to attach a personal access token (PAT) into a repository used to run a GitHub action script (`.github/workflows/*.yml`) to write content into another repository and obtain the push permission into that repository: `repo`.
@@ -106,11 +104,11 @@ To attach PAT: https://docs.github.com/en/actions/reference/encrypted-secrets#cr
 
 The `myrepo-*` repository should contain 1 file per statistic entity:
 
-* [.github/workflows/accum-mypage-download-stats.yml example](https://github.com/andry81-devops/gh-action--accum-inpage-downloads#examples)
+* [.github/workflows/accum-mypage-download-stats.yml example](https://github.com/andry81-devops/gh-action--accum-inpage-downloads#accum-mypage-download-stats-yml)
 
-* [.github/workflows/accum-phpbb-board-stats.yml example](https://github.com/andry81-devops/gh-action--accum-board-stats#examples)
+* [.github/workflows/accum-phpbb-board-stats.yml example](https://github.com/andry81-devops/gh-action--accum-board-stats#accum-phpbb-board-stats-yml)
 
-* [.github/workflows/accum-content.yml example](https://github.com/andry81-devops/gh-action--accum-content#examples)
+* [.github/workflows/accum-content.yml example](https://github.com/andry81-devops/gh-action--accum-content#accum-content-yml)
 
 > :warning: You must replace all placeholder into respective values:
 
@@ -119,16 +117,12 @@ The `myrepo-*` repository should contain 1 file per statistic entity:
 
 After the github workflow yaml file is commited and pushed, you can run the action from the `Actions` tab in the `myrepo-*` repository.
 
-## <a name="reuse">REUSE</a>
+> :information_source: See <a href="https://github.com/andry81-devops/github-accum-stats#reuse">REUSE</a> section for details if you have multiple repositories and want to store all GitHub workflow scripts (`.github/workflows/*.yml`) in a single repository.
 
-https://github.com/andry81/github-accum-stats/blob/master/README.md#reuse
+## Known Issues
 
-## <a name="known_issues">Known Issues</a>
+https://github.com/andry81-devops/github-accum-stats#known-issues
 
-https://github.com/andry81/github-accum-stats/blob/master/README.md#known_issues
+## Last known issues updates
 
-## <a name="known_issues_updates">Last known issues updates</a>
-
-### Updates on composite actions features:
-
-https://github.com/andry81-devops/github-accum-stats/blob/master/README.md#composite_action_features_updates
+https://github.com/andry81-devops/github-accum-stats#last-known-issues-updates
