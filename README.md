@@ -1,29 +1,23 @@
-<!-- -->
-<p align="center">
-  <a href="#"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fandry81-devops%2Faccum-content&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" valign="middle" alt="hits" /></a>
-</p>
-<!-- -->
-
 <p align="center">
   <a href="https://github.com/andry81-stats/accum-content--gh-stats/commits/master/traffic/views">
-    <img src="https://img.shields.io/badge/dynamic/json?color=success&label=Github%20views|all&query=count&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/views/latest-accum.json?raw=True&logo=github" valign="middle" alt="GitHub views|any|total" />
-    <img src="https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=count&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/views/latest.json?raw=True" valign="middle" alt="GitHub views|any|14d" /></a>
+    <img src="https://github.com/andry81-cache/andry81-devops--gh-content-cache/raw/master/repo/andry81-devops/accum-content/badges/traffic/views/all.svg" valign="middle" alt="GitHub views|any|total" />
+    <img src="https://github.com/andry81-cache/andry81-devops--gh-content-cache/raw/master/repo/andry81-devops/accum-content/badges/traffic/views/all-14d.svg" valign="middle" alt="GitHub views|any|14d" /></a>
 • <a href="https://github.com/andry81-stats/accum-content--gh-stats/commits/master/traffic/views">
-    <img src="https://img.shields.io/badge/dynamic/json?color=success&label=Github%20views|unq&query=uniques&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/views/latest-accum.json?raw=True&logo=github" valign="middle" alt="GitHub views|unique per day|total" />
-    <img src="https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=uniques&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/views/latest.json?raw=True" valign="middle" alt="GitHub views|unique per day|14d" /></a>
+    <img src="https://github.com/andry81-cache/andry81-devops--gh-content-cache/raw/master/repo/andry81-devops/accum-content/badges/traffic/views/unq.svg" valign="middle" alt="GitHub views|unique per day|total" />
+    <img src="https://github.com/andry81-cache/andry81-devops--gh-content-cache/raw/master/repo/andry81-devops/accum-content/badges/traffic/views/unq-14d.svg" valign="middle" alt="GitHub views|unique per day|14d" /></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/andry81-stats/accum-content--gh-stats/commits/master/traffic/clones">
-    <img src="https://img.shields.io/badge/dynamic/json?color=success&label=Github%20clones|all&query=count&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/clones/latest-accum.json?raw=True&logo=github" valign="middle" alt="GitHub clones|any|total" />
-    <img src="https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=count&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/clones/latest.json?raw=True" valign="middle" alt="GitHub clones|any|14d" /></a>
+    <img src="https://github.com/andry81-cache/andry81-devops--gh-content-cache/raw/master/repo/andry81-devops/accum-content/badges/traffic/clones/all.svg" valign="middle" alt="GitHub clones|any|total" />
+    <img src="https://github.com/andry81-cache/andry81-devops--gh-content-cache/raw/master/repo/andry81-devops/accum-content/badges/traffic/clones/all-14d.svg" valign="middle" alt="GitHub clones|any|14d" /></a>
 • <a href="https://github.com/andry81-stats/accum-content--gh-stats/commits/master/traffic/clones">
-    <img src="https://img.shields.io/badge/dynamic/json?color=success&label=Github%20clones|unq&query=uniques&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/clones/latest-accum.json?raw=True&logo=github" valign="middle" alt="GitHub clones|unique per day|total" />
-    <img src="https://img.shields.io/badge/dynamic/json?color=success&label=14d&query=uniques&url=https://github.com/andry81-stats/accum-content--gh-stats/raw/master/traffic/clones/latest.json?raw=True" valign="middle" alt="GitHub clones|unique per day|14d" /></a>
+    <img src="https://github.com/andry81-cache/andry81-devops--gh-content-cache/raw/master/repo/andry81-devops/accum-content/badges/traffic/clones/unq.svg" valign="middle" alt="GitHub clones|unique per day|total" />
+    <img src="https://github.com/andry81-cache/andry81-devops--gh-content-cache/raw/master/repo/andry81-devops/accum-content/badges/traffic/clones/unq-14d.svg" valign="middle" alt="GitHub clones|unique per day|14d" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/andry81/donate"><img src="https://github.com/andry81/andry81/raw/master/badges/donate.svg" valign="middle" alt="donate" /></a>
+  <a href="https://github.com/andry81/donate"><img src="https://github.com/andry81-cache/andry81--gh-content-cache/raw/master/common/badges/donate/donate.svg" valign="middle" alt="donate" /></a>
 </p>
 
 ---
@@ -58,15 +52,15 @@ Features:
 
 5. All scripts does use GitHub composite action to reuse workflow code base: https://docs.github.com/en/actions/creating-actions/creating-a-composite-action
 
-> :warning: Not all features of a generic GitHub action is supported: [Known Issues](#known_issues)
+> :warning: Not all features of a generic GitHub action is supported: [Known Issues](#known-issues)
 
-You need setup 3-5 repositories:
+You need setup 2-5 repositories:
 
 1. Repository, where content config file will be stored: `myrepo--gh-content-config`.<br />
-   > :information_source: This repository is only required for the content accumulation script.
+   > :information_source: This repository is only required for the content accumulation script. This repository the the content store repository can be a single.
 
 2. Repository, where to store downloaded content: `myrepo--gh-content-cache`.<br />
-   > :information_source: This repository is only required for the content accumulation script.
+   > :information_source: This repository is only required for the content accumulation script. This repository the the content config repository can be a single.
 
 3. Repository, where statistic will be saved: `myrepo--gh-stats`.<br />
    > :information_source: This repository is only required for the statistic accumulation script.
