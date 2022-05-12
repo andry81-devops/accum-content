@@ -33,7 +33,7 @@ Other tutorials:
 
 * https://github.com/andry81-devops/github-action-extensions
 
-Features:
+**Features**:
 
 1. Implementation can accumulate external inpage downloads (track counter), phpbb forum board view/replies (track counters), external content (svg files, images, etc) into a cache repository.
 
@@ -57,10 +57,24 @@ Features:
 You need setup 2-5 repositories:
 
 1. Repository, where content config file will be stored: `myrepo--gh-content-config`.<br />
-   > :information_source: This repository is only required for the content accumulation script. This repository the the content store repository can be a single.
+   > :information_source: This repository is only required for the content accumulation script. This repository and a content store repository can be a single.
 
 2. Repository, where to store downloaded content: `myrepo--gh-content-cache`.<br />
-   > :information_source: This repository is only required for the content accumulation script. This repository the the content config repository can be a single.
+   > :information_source: This repository is only required for the content accumulation script. This repository and a content config repository can be a single.
+
+   **Features of a standalone content cache repository**:
+
+   * Can be extracted content not related to a specific repository or related to multiple repositories from a target repository.
+
+   * Extracted content can be updated separately from a target repository. For example, after a release commit into a target repository.
+
+   * Traffic to an external resource can be replaced by traffic to the GitHub resource with better caching.
+
+   * All content can be stored in a single place and content change be saved into a commits list.
+
+   * Download and accumulate process can be controlled by explicit config file with parameters (can be outside of a content cache repository).
+
+   * The content cache repository can be rewrited to remove old files and history does not touching anything else.
 
 3. Repository, where statistic will be saved: `myrepo--gh-stats`.<br />
    > :information_source: This repository is only required for the statistic accumulation script.
