@@ -64,7 +64,7 @@ You need setup 2-5 repositories:
 
    **Features of a standalone content cache repository**:
 
-   * Can be extracted content not related to a specific repository or related to multiple repositories from a target repository.
+   * Can extract content not related to a specific repository or related to multiple repositories from a target repository.
 
    * Extracted content can be updated separately from a target repository. For example, after a release commit into a target repository.
 
