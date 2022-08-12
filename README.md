@@ -27,11 +27,7 @@
 > **Warning** This tutorial does contain content related to not the GitHub itself.
 >
 
-Other tutorials:
-
-* https://github.com/andry81-devops/github-accum-stats
-
-* https://github.com/andry81-devops/github-action-extensions
+All tutorials: https://github.com/andry81/index#tutorials
 
 **Features**:
 
