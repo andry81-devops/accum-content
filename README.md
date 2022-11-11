@@ -89,8 +89,8 @@ You need setup 2-5 repositories:
    * GitHub composite action to periodically download and accumulate content into repository:<br />
      https://github.com/andry81-devops/gh-action--accum-content
 
-   The list of actions (`gh-action--*`):
-   https://github.com/orgs/andry81-devops/repositories?q=%22gh-action--*%22
+   All action scripts:<br />
+   https://github.com/andry81/index#action-scripts
 
 > **Note** You need to attach a personal access token (PAT) into a repository used to run a GitHub action script (`.github/workflows/*.yml`) to read content from another repository and obtain the read permission from that repository: `repo`->`public_repo`.
 
