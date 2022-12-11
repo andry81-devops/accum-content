@@ -58,9 +58,11 @@ You need setup 2-5 repositories:
 2. Repository, where to store downloaded content: `myrepo--gh-content-cache`.<br />
    > **Note** This repository is only required for the content accumulation script. This repository and a content config repository can be a single.
 
-   **Features of a standalone content cache repository**:
+   <a name="features-of-a-standalone-content-cache-repository"></a>**Features of a standalone content cache repository**:
 
    * Can extract content not related to a specific repository or related to multiple repositories from a target repository.
+
+   * Can validate content by shell code handler before update it and filter out invalid content.
 
    * Extracted content can be updated separately from a target repository. For example, after a release commit into a target repository.
 
