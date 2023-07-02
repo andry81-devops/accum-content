@@ -35,11 +35,11 @@ All tutorials: https://github.com/andry81/index#tutorials
 
 2. Workflow has used a bash script to accumulate statistic:
 
-   * External inpage downloads: [accum-downloads.sh](https://github.com/andry81-devops/gh-workflow/blob/master/bash/inpage/accum-downloads.sh)
+   * External inpage downloads: [accum-downloads.sh](https://github.com/andry81-devops/gh-workflow/tree/HEAD/bash/inpage/accum-downloads.sh)
 
-   * PhpBB forum board views/replies: [accum-stats.sh](https://github.com/andry81-devops/gh-workflow/blob/master/bash/board/accum-stats.sh)
+   * PhpBB forum board views/replies: [accum-stats.sh](https://github.com/andry81-devops/gh-workflow/tree/HEAD/bash/board/accum-stats.sh)
 
-   * External content cache: [accum-content.sh](https://github.com/andry81-devops/gh-workflow/blob/master/bash/cache/accum-content.sh)
+   * External content cache: [accum-content.sh](https://github.com/andry81-devops/gh-workflow/tree/HEAD/bash/cache/accum-content.sh)
 
 3. Basically most of the scripts does accumulate the response. For example, the board viewes/replies accumulator script does accumulate statistic both into a single file: `traffic/board/myboard/latest.json`,
    and into a set of files grouped by year and allocated per day: `traffic/board/myboard/by_year/YYYY/YYYY-MM-DD.json`.
