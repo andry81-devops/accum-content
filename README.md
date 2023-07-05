@@ -29,9 +29,9 @@
 
 All tutorials: https://github.com/andry81/index#tutorials
 
-**Features**:
+## Features:
 
-1. Implementation can accumulate external inpage downloads (track counter), phpbb forum board view/replies (track counters), external content (svg files, images, etc) into a cache repository.
+1. Implementation can accumulate external inpage downloads counter, phpbb forum board view/replies counters, external content (svg files, images, etc) into a cache repository.
 
 2. The workflow does use a bash script to accumulate statistic for:
 
@@ -50,7 +50,9 @@ All tutorials: https://github.com/andry81/index#tutorials
 
 > **Warning** Not all features of a generic GitHub action is supported: [Known Issues](#known-issues)
 
-You need setup 2-5 repositories:
+## Repositories:
+
+You need setup 2-5 repositories.
 
 1. Repository, where content config file will be stored: `myrepo--gh-content-config`.<br />
    > **Note** This repository is only required for the content accumulation script. This repository and a content store repository can be a single.
@@ -58,21 +60,8 @@ You need setup 2-5 repositories:
 2. Repository, where to store downloaded content: `myrepo--gh-content-cache`.<br />
    > **Note** This repository is only required for the content accumulation script. This repository and a content config repository can be a single.
 
-   <a name="features-of-a-standalone-content-cache-repository"></a>**Features of a standalone content cache repository**:
-
-   * Can extract content not related to a specific repository or related to multiple repositories from a target repository.
-
-   * Can validate content by shell code handler before update it and filter out invalid content.
-
-   * Extracted content can be updated separately from a target repository. For example, after a release commit into a target repository.
-
-   * Traffic to an external resource can be replaced by traffic to the GitHub resource with better caching.
-
-   * All content can be stored in a single place and content change be saved into a commits list.
-
-   * Download and accumulate process can be controlled by explicit config file with parameters (can be outside of a content cache repository).
-
-   * The content cache repository can be rewrited to remove old files and history does not touching anything else.
+   Features of a standalone content cache repository:<br />
+   https://github.com/andry81-devops/gh-action--accum-content#features-of-a-standalone-content-cache-repository
 
 3. Repository, where statistic will be saved: `myrepo--gh-stats`.<br />
    > **Note** This repository is only required for the statistic accumulation script.
@@ -100,9 +89,9 @@ You need setup 2-5 repositories:
 
 > **Note** A separate personal access token (PAT) does not require to be attached into a repository used to run a GitHub action script for another repository as long as that another repository is owned by the same owner as a repository which runs a GitHub action script.
 
-* `myrepo--gh-stats` -> needs read/write content permission
-* `myrepo--gh-content-config` -> needs read content permission
-* `myrepo--gh-content-cache` -> needs read/write content permission
+* `myrepo--gh-content-config` -> needs read access permission to read repository files
+* `myrepo--gh-stats` -> needs read/write access permissions to read/write repository files
+* `myrepo--gh-content-cache` -> needs read/write content permission to read/write repository files
 
 To generate PAT: https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token
 
