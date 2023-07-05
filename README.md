@@ -33,13 +33,13 @@ All tutorials: https://github.com/andry81/index#tutorials
 
 1. Implementation can accumulate external inpage downloads (track counter), phpbb forum board view/replies (track counters), external content (svg files, images, etc) into a cache repository.
 
-2. Workflow has used a bash script to accumulate statistic:
+2. The workflow does use a bash script to accumulate statistic for:
 
-   * External inpage downloads: [accum-downloads.sh](https://github.com/andry81-devops/gh-workflow/tree/HEAD/bash/inpage/accum-downloads.sh)
+   * External web page with downloads counter: [accum-downloads.sh](https://github.com/andry81-devops/gh-workflow/tree/HEAD/bash/inpage/accum-downloads.sh)
 
-   * PhpBB forum board views/replies: [accum-stats.sh](https://github.com/andry81-devops/gh-workflow/tree/HEAD/bash/board/accum-stats.sh)
+   * PhpBB forum board views/replies counter: [accum-stats.sh](https://github.com/andry81-devops/gh-workflow/tree/HEAD/bash/board/accum-stats.sh)
 
-   * External content cache: [accum-content.sh](https://github.com/andry81-devops/gh-workflow/tree/HEAD/bash/cache/accum-content.sh)
+   * External content cache files: [accum-content.sh](https://github.com/andry81-devops/gh-workflow/tree/HEAD/bash/cache/accum-content.sh)
 
 3. Basically most of the scripts does accumulate the response. For example, the board viewes/replies accumulator script does accumulate statistic both into a single file: `traffic/board/myboard/latest.json`,
    and into a set of files grouped by year and allocated per day: `traffic/board/myboard/by_year/YYYY/YYYY-MM-DD.json`.
@@ -82,13 +82,13 @@ You need setup 2-5 repositories:
 
 5. Repository, where to store github composite action:
 
-   * GitHub composite action to request and accumulate downloads statistic from a value on a web page:<br />
+   * GitHub composite action to request and accumulate downloads counter statistic from a value on a web page:<br />
      https://github.com/andry81-devops/gh-action--accum-inpage-downloads
 
-   * GitHub composite action to request and accumulate a forum board post replies and views statistic:<br />
+   * GitHub composite action to request and accumulate a forum board post replies/views counter statistic:<br />
      https://github.com/andry81-devops/gh-action--accum-board-stats
 
-   * GitHub composite action to periodically download and accumulate content into repository:<br />
+   * GitHub composite action to periodically download and accumulate content into a repository:<br />
      https://github.com/andry81-devops/gh-action--accum-content
 
    All action scripts:<br />
